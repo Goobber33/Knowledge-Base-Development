@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import {
   Card,
@@ -18,6 +16,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHashtag, faPaperclip } from "@fortawesome/free-solid-svg-icons";
 
 export default function HomeCards() {
   return (
@@ -37,7 +37,7 @@ export default function HomeCards() {
       </CardBody>
       <Divider />
       <CardFooter className="flex justify-between items-center">
-        <div className="flex w-full max-w-xs flex-col gap-2">
+        <div className="flex gap-2 items-center">
           <Select>
             <SelectTrigger className="w-[180px]">
               <SelectValue placeholder="Select Category" />
@@ -52,6 +52,12 @@ export default function HomeCards() {
               </SelectGroup>
             </SelectContent>
           </Select>
+          <button className="ml-6 text-gray-700 hover:text-gray-900">
+            <FontAwesomeIcon icon={faHashtag} className="h-6 w-6" />
+          </button>
+          <button className="ml-3 text-gray-700 hover:text-gray-900">
+            <FontAwesomeIcon icon={faPaperclip} className="h-6 w-6" />
+          </button>
         </div>
         <Button className="rounded-lg bg-primary text-white">Post</Button>
       </CardFooter>
