@@ -16,7 +16,9 @@ export default function Sidebar() {
             <div
               onClick={() => setActiveLink(link)}
               className={`block text-left px-4 py-2 rounded-full ${
-                activeLink === link ? "bg-blue-500 text-white" : "hover:bg-blue-100"
+                activeLink === link
+                  ? "bg-blue-500 text-white"
+                  : "hover:bg-blue-100"
               }`}
             >
               {link}

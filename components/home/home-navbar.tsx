@@ -9,7 +9,7 @@ import {
   Image,
 } from "@nextui-org/react";
 import { Button } from "@nextui-org/react";
-import { SearchIcon } from "./SearchIcon";
+import { SearchIcon } from "../SearchIcon";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
 

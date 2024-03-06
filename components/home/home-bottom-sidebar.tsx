@@ -1,5 +1,5 @@
 import Link from "next/link";
-import '@fortawesome/fontawesome-svg-core/styles.css';
+import "@fortawesome/fontawesome-svg-core/styles.css";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -17,7 +17,11 @@ export default function SidebarB() {
       <div className="space-y-6 text-xl ml-14">
         <h1 className="text-2xl pb-2">Categories</h1>
         <Link href="#" className="block text-left">
-          <FontAwesomeIcon icon={faSquarePlus} className="h-6" style={{ color: "#333333" }} />
+          <FontAwesomeIcon
+            icon={faSquarePlus}
+            className="h-6"
+            style={{ color: "#333333" }}
+          />
           <span className="ml-6">Create New</span>
         </Link>
         <Link href="#" className="block text-left">

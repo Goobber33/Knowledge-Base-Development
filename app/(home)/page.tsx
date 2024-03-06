@@ -1,9 +1,9 @@
 import React from "react";
-import HomeNavbar from "@/components/home-navbar";
-import HomeCards from "@/components/home-cards";
-import Sidebar from "@/components/home-sidebar";
-import SidebarR from "@/components/home-second-sidebar";
-import SidebarB from "@/components/home-bottom-sidebar";
+import HomeNavbar from "@/components/home/home-navbar";
+import HomeCards from "@/components/home/home-cards";
+import Sidebar from "@/components/home/home-sidebar";
+import SidebarR from "@/components/home/home-second-sidebar";
+import SidebarB from "@/components/home/home-bottom-sidebar";
 import Footer from "@/components/footer";
 
 export default function Home() {
