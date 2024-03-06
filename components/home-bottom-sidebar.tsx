@@ -26,19 +26,19 @@ export default function SidebarB() {
             style={{ color: "#333333" }}
             className="h-6"
           />
-          <span className="ml-6">Education</span>
+          <span className="ml-4">Education</span>
         </Link>
         <Link href="#" className="block text-left">
           <FontAwesomeIcon className="h-6" icon={faSuitcase} />
-          <span className="ml-6">Employment</span>
+          <span className="ml-5">Employment</span>
         </Link>
         <Link href="#" className="block text-left">
           <FontAwesomeIcon className="h-6" icon={faHouse} />
-          <span className="ml-6">Housing</span>
+          <span className="ml-5">Housing</span>
         </Link>
         <Link href="#" className="block text-left">
           <FontAwesomeIcon className="h-6" icon={faScaleBalanced} />
-          <span className="ml-6">Legal Advocacy</span>
+          <span className="ml-4">Legal Advocacy</span>
         </Link>
       </div>
     </div>
