@@ -53,13 +53,13 @@ export default function HomeCards() {
             </SelectContent>
           </Select>
           <button className="ml-6 text-gray-700 hover:text-gray-900">
-            <FontAwesomeIcon icon={faHashtag} className="h-6 w-6" />
+            <FontAwesomeIcon icon={faHashtag} className="h-6 w-6"  size="2x" />
           </button>
           <button className="ml-3 text-gray-700 hover:text-gray-900">
-            <FontAwesomeIcon icon={faPaperclip} className="h-6 w-6" />
+            <FontAwesomeIcon icon={faPaperclip} className="h-6 w-6"  size="2x" />
           </button>
         </div>
-        <Button className="rounded-lg bg-primary text-white">Post</Button>
+        <Button className="rounded-full bg-primary text-white w-28">Post</Button>
       </CardFooter>
     </Card>
   );

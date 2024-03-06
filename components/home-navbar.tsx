@@ -45,7 +45,7 @@ export default function HomeNavbar() {
 
         <div className="absolute right-0 gap-4 -mr-80 flex items-center justify-center">
           <button className="text-gray-700 focus:outline-none">
-            <FontAwesomeIcon icon={faQuestionCircle} className="w-9 h-9" />
+            <FontAwesomeIcon icon={faQuestionCircle} size="2x" />
           </button>
           <div className="w-28">
             {" "}
