@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This would only work if NextUI does not override these styles */
+.select-placeholder::placeholder {
+  text-align: center;
+}
