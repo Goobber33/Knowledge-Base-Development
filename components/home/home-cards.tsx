@@ -29,7 +29,10 @@ export default function HomeCards() {
       </CardHeader>
       <Divider />
       <CardBody>
-        <h1 className="ml-3 mb-4 mt-4 text-2xl text-gray-400">Give a title</h1>
+        <Textarea
+          placeholder="Give a title"
+          className="resize-none w-full h-12 text-xl w-10/12 mb-2"
+        />
         <Textarea
           placeholder="Place a detailed question here. Include relevant images and use appropriate tags. Additionally, you may select a category that best fits your query. If you're unsure which category your question belongs to, you have the option to create a new one."
           className="resize-none w-full h-40 text-md w-10/12"
